@@ -1,5 +1,18 @@
 # friendly-journey
 
+## Temp
+
+### Tasks
+- [ ] Install pytest and create basic tests.
+- [ ] Create CI/CD pipeline running tests.
+- [ ] Install and configure ruff.
+- [ ] Install and configure mypy.
+- [ ] Add to linter to CI/CD pipeline.
+- [ ] Add static type checker to CI/CD pipeline.
+- [ ] Add pre-commit hook with linter, formatting and testing.
+- [ ] Dockerize application.
+- [ ] Deploy in some place (AWS, Azure, GCP?).
+
 ## Requisites
 
 You should have installed:
