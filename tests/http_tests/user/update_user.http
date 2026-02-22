@@ -1,0 +1,8 @@
+PUT http://localhost:8000/users/4d9007fe-7f1b-4ece-9055-03472c6f5a2a
+Content-Type: application/json
+
+{
+  "name": "Wener Castro NOVO",
+  "email": "wenerwagner@gmail.com",
+  "password": "minhasenha"
+}

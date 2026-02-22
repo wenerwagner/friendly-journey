@@ -1,0 +1,2 @@
+DELETE http://localhost:8000/users/5e9d72c1-d050-4fc0-b27d-14971a1d36c9/
+Accept: application/json

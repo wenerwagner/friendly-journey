@@ -2,7 +2,26 @@
 
 ## Temp
 
+### App Version 0.1.0
+
+- Project should have initial good folder structure.
+- Create CRUD operations for User.
+- User have name, e-mail and password.
+- Everything should be stored in memory.
+- The application should be deployed and accessible in some place.
+
+### App Version 0.2.0
+
+- ID generation and handling. Maybe using dependency injection.
+- Use Pydantic for models.
+- The password should be correctly stored (encrypted).
+- The application should have CI/CD for deploy and testing.
+- We should have basic testing.
+- The API should have api versioning like `/api/v1` in the path.
+- E-mail should be unique.
+
 ### Tasks
+- [X] Define application version 1.0.0.
 - [ ] Install pytest and create basic tests.
 - [ ] Create CI/CD pipeline running tests.
 - [ ] Install and configure ruff.
@@ -51,3 +70,19 @@ You should have installed:
 - Toml formatter.
 - Markdown formatter.
 - OpenAPI customization.
+- Application versioning.
+- Release notes.
+- Restful API
+- API development good practices.
+- API security.
+- API HATEOAS.
+- Documentation.
+- Python docstring.
+- CORS.
+- Rate limit.
+- Pagination.
+- Querying.
+- API parameters.
+- Error handling.
+- Good testing for API Http Status semantic.
+- Better http test solution, something automatic like Postman scripts, maybe something open-source.
