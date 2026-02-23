@@ -1,7 +1,7 @@
 import uuid
 
-from pydantic import BaseModel, SecretStr, Field
-from pydantic import EmailStr
+from pydantic import BaseModel, EmailStr, Field, SecretStr
+
 
 def id_generator():
     return str(uuid.uuid4())

@@ -18,3 +18,11 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 package-mode = false
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.2,<0.16.0)"
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+extend-fixable = ["I"]

@@ -1,7 +1,9 @@
 from typing import List, Optional
 
 from fastapi import APIRouter, status
+
 from src.app.models.user import User
+
 router = APIRouter()
 
 users = []
